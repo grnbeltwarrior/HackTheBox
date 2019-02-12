@@ -1,0 +1,25 @@
+A few hints here in the description. Mainly esoteric programming and liking math and encrypting with popular encryption algorithm.
+
+Grab the zip file:
+wget https://www.hackthebox.eu/storage/challenges/crypto/brainy.zip
+unzip with the password provided on the challenge.
+View the file extracted.
+
+Right off I see the file has some sort of strange encoding. 
+
+Googled esoteric programming.
+https://en.wikipedia.org/wiki/Esoteric_programming_language
+
+Decoded the file contents with an online website that I found via google and the name of the language.
+
+This resulted in a few particular letters and numbers.
+I know enough about RSA to see that p and q where in the list. I had no idea what the other letters referred to.
+
+A lot of googling I came across a site that outlined another challenge from picoCTF for a similar situation.
+
+Reading through the math, which seemed pretty foreign to me, I tried to understand why I was going to use the python code.
+
+Filled in the letters, numbers and copied and pasted the code. Basically outlining the math needed to perform the decode.
+
+This resulted in a number than needed to go to hex then to ascii.
+I have the flag and the points but still scratching my head on how complicated this is.
