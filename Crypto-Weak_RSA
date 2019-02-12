@@ -1,3 +1,5 @@
+This was done on a Kali VM.
+
 Grab the zip file:
 wget https://www.hackthebox.eu/storage/challenges/crypto/weak-rsa.zip
 unzip with the password provided on the challenge.
