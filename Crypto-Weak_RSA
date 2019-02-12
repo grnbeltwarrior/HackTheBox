@@ -1,0 +1,21 @@
+Grab the zip file:
+wget https://www.hackthebox.eu/storage/challenges/crypto/weak-rsa.zip
+unzip with the password provided on the challenge.
+View the files extracted.
+
+Google.
+
+A tool that is common for CTFs is usually found.
+
+wget https://github.com/Ganapati/RsaCtfTool/archive/master.zip
+
+I ran into the issue of an error of: ImportError: No module named gmpy2
+
+Before I could install it via: pip install gmpy2==2.1..0a2
+apt install libgmp-dev
+apt install libmpfr-dev
+apt install libmpc-dev
+
+Then gmpy2 will install via pip.
+
+Then you can run RsaCtfTool.py using the switches that match the files given in the challenge.
