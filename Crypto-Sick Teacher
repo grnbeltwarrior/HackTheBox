@@ -1,0 +1,13 @@
+Grab the zip file:
+wget https://www.hackthebox.eu/storage/challenges/crypto/SickTeacher.zip
+unzip with the password provided on the challenge.
+View the file extracted.
+
+The resulting file had a output of text that was scrambled. Based upon the challenge name, we were looking for a substitution.
+
+While I've seen this chapter in my Cracking Codes with Python book, I've not reached that far (note to self, do a chapter).
+
+I found a website that will do some frequency analysis on the text, with an option to put in some knows, if you know them.
+i.e. T=K.
+
+The output wasn't perfect but close, with some letter equivalents from the output and rerun, I was able to obtain the flag.
