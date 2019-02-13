@@ -1,0 +1,24 @@
+The description: Can you decrypt the message?
+Title: Keys
+
+That's all to go on.
+
+Grab the zip file:
+wget https://www.hackthebox.eu/storage/challenges/crypto/keys.zip
+unzip with the password provided on the challenge.
+View the file extracted.
+
+Simple txt file with something that looks like a pair of base64 entries. However it isn't base64.
+
+I couldn't figure out for the life of me what it was. 2 strings, keys decrypt the message.
+
+Finally I tossed in the towel and googled the first string. Top result was a link that automatically decrypted the whole thing.
+
+It's a disappointing situation for sure. No real learning at that point if you are in the game to simply capture flags and points.
+
+Since the webpage that spit out the flag had the code there, I took a look and did some googling.
+
+I wouldn't have figured out anything like the symmetric encryption used in the challenge. Perhaps if I had visited the python-guide.org
+crypto page.
+
+The gist is to take what you would use to generate a key and encrypt your message and reverse the process supplying the key and message.
